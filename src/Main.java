@@ -9,7 +9,7 @@ public class Main {
     public static final String PATHOUT = "C:\\Progetti\\Test\\Files\\Output";
     public static void main(String[] args) throws IOException {
 
-        
+        System.out.println("");
 
 
         Map<Key, List<String>> map =  LeggiFile.findAllFilesInFolder(PATH);
